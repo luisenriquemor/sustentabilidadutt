@@ -1,0 +1,338 @@
+*{
+	box-sizing: border-box;
+}
+
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+[ class*="col-"]{
+	float: left;
+	padding: 15px;
+	/*border:1px solid red ;*/
+
+}
+.fila::after{
+	content:"";
+	clear: both;
+	display: block;
+}
+.encabe{
+	width: 100%;
+	height: auto;
+}
+
+.contenedor{
+	
+	max-width: 1000px;
+	min-width: 320px;
+	margin: auto;
+	
+
+}
+.color{
+	background-color:  #f0ffff;
+	width: 100%;
+	border-radius: 1px;
+}
+.color img{
+	width:90%;
+}
+.color p{
+	width: 80%;
+}
+.unoimajen{
+	width: 100%;
+	border-radius: 10px;
+}
+
+ .conte{
+    max-width: 60px;
+    width: 30%;
+    margin: auto;
+    }
+
+img{width: 100%}
+/*botones*/
+
+
+body{
+	 
+	
+	background-color: #FFFFFF;
+}
+/*datos del contacto*/
+.ddc
+	{
+		font-size: 20px;
+		
+		background-color: black;
+		color: white;
+		padding: 20px 20px;
+		border: 2px;
+		
+
+	}
+	.piedp
+	{
+
+		font-size: 20px;
+		width: 100%;
+		background-color: #4CC452;
+		color: white;
+		padding: 20px 20px;
+		border: 2px;
+		
+
+	}
+
+
+/*botones*/
+.b1
+	{
+		font-size: 15px;
+		border-radius: 30px;
+		background-color: #848482;
+		color: black;
+		padding: 25px 40px;
+		border: 2px;
+		cursor: pointer;
+		
+
+	}
+	.b1:hover
+	{
+		color: white;
+		background-color:#a52a24;
+		border:2px solid #000000  ;
+		color:white;
+	}
+	.b2
+	{
+		font-size: 15px;
+		border-radius: 30px;
+		background-color: #848482;
+		color: black;
+		padding: 25px 80px;
+		border: 2px;
+		cursor: pointer;
+		
+		
+
+	}
+	.b2:hover
+	{
+		color: white;
+		background-color:#a52a24;
+		border:2px solid #000000  ;
+		color:white;
+	}
+	.b3
+	{
+		font-size: 15px;
+		border-radius: 30px;
+		background-color: #4CC452;
+		color: black;
+		padding: 25px 80px;
+		border: 2px;
+		cursor: pointer;
+		background-image: url("./muebleriamt/img1/face.png");
+
+	}
+	.b3:hover
+	{
+			color: white;
+		background-color:#95b9c7;
+		border:2px solid #000000  ;
+		color:white;
+	}
+	/*  todo del Slider */
+	.Titulo{
+  font-size:25px;
+  color: #000000;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(249,183,255,0.7);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #e9cfec;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* terminacion xdd de slaider*/
+
+/* acordeonnn */
+.botonTituloSeccion{
+	font-size: 15px;
+		border-radius: 30px;
+		background-color: #848482;
+		color: black;
+		padding: 25px 80px;
+		border: 2px;
+		cursor: pointer;
+
+}
+
+.botonTituloSeccion:hover{
+
+		color: white;
+		background-color:#a52a24;
+		border:2px solid #000000  ;
+		color:white;
+
+}
+.botonTituloSeccionn{
+	 font-size: 1.8rem;
+		border-radius: 30px;
+		background-color: #848482;
+		color: black;
+		padding: 25px 100px;
+		border: 2px;
+		cursor: pointer;
+
+}
+
+.botonTituloSeccionn:hover{
+color: white;
+		background-color:#a52a24;
+		border:2px solid #000000  ;
+		color:white;
+
+}
+
+
+
+/* letras del acordeon */
+.contenidoacordeon{
+	text-align: justify;
+}
+/* encabezados*/
+.encabezado {
+  position: relative;
+  max-width: 100%; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+.enc2{
+	max-height: 600px;
+	min-height: 400px;
+}
+
+.encabezado .content00 {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 50px; /* Some padding */
+}
+.tele{
+	width: 30px;
+	margin-right: 10px;
+	text-align: justify;
+}
+.pan{
+	 max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
